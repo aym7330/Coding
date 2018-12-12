@@ -1,28 +1,20 @@
 /**
  * 날짜 : 2018-12-12
  * 
- * 페이지 : p48
+ * 페이지 : p54
  * 
- * 접급 제한자 종류
- * public : 모든 접근 허용
- * protected : 같은 패키지(폴더)의 객체, 상속 관계의 객체 허용
- * default : 같은 패키지(폴더)의 객체 허용
- * private : 현재의 객체 안에서만 허용
- * 
- * 접급 제한자 사용
- * 클래스 : public, default
- * 생성자, 멤버 변수, 멤버 메서드 : public, protected, default, private
- * 지역변수 : 접군 제한자를 사용할 수 없음
- * 
+ * Random 클래스 : 난수 생성  
  */
 package chap02;
 
+import java.util.Random;
 import java.util.Scanner;
 
-public class Test2_4 {
+public class Test2_5 {
 
 	public static void main(String[] args) {
 		Scanner stdIn=new Scanner(System.in);
+		Random rand=new Random();	//랜덤 클래스
 		
 		System.out.println("키의 최댓값 구하기");
 		System.out.println("사람 수 : ");
@@ -31,8 +23,9 @@ public class Test2_4 {
 		int[] height=new int[num];
 		
 		for(int i=0;i<num;i++) {
-			System.out.println("height[ "+i+" ]:");
-			height[i]=stdIn.nextInt();
+			height[i]=100+rand.nextInt(90);	//요소의 값을 난수로 결정 
+											// 0~n-1까지의 난수
+			System.out.println("height[ "+i+" ]:"+height[i]);
 		}
 		System.out.println("최댓값은 "+maxOf(height)+"입니다.");
 	}
