@@ -10,6 +10,8 @@
  * 4 3 2 1 
  * 역순 정렬 종료
  * 
+ * Q5 배열 b의 모든 요소를 배열 a에 역순으로 복사하는 베소드 rcopy를 작성하세요.
+ * static void rcopy(int[] a, int[] b)
  */
 package chap02;
 
