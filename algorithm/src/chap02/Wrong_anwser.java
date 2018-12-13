@@ -12,10 +12,34 @@
  * 
  * Q5 배열 b의 모든 요소를 배열 a에 역순으로 복사하는 베소드 rcopy를 작성하세요.
  * static void rcopy(int[] a, int[] b)
+ * 
+ * 날짜 : 2018-12-13
+ * Q6 배열의 앞쪽에 아랫자리가 아니라 윗자리를 넣어두는 메서드를 작성하세요.
+ * static int cardConv(int x, int r, char[] d)
+ * 
+ * Q7 아래처럼 기수 변환 과정을 자세히 나타내는 프로그램을 작성하세요
+ * 10진수를 기수 변환합니다.
+ * 음이 아닌 정수 : 
+ * 59
+ * 어떤 진수로 변환할까요?(2-36) : 
+ * 2
+ *  2 | 59
+ *    +----
+ *  2 | 29    … 1
+ *    +----
+ *  2 | 14    … 1
+ *   +----
+ *  2 |  7    … 0
+ *    +----
+ *  2 |  3    … 1
+ *    +----
+ *  2 |  1    … 1
+ *    +----
+ *       0    … 1
  */
 package chap02;
 
-public class wrong_anwser {
+public class Wrong_anwser {
 	public static void main(String[] args) {
 		
 	}

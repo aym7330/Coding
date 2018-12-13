@@ -14,7 +14,7 @@
  */
 package chap01;
 
-public class wrong_anwser {
+public class Wrong_anwser {
 	public static void main(String[] args) {
 		
 	}
