@@ -38,7 +38,20 @@
  *       0    … 1
  *       
  *       
- * Q8, Q9 확인
+ * Q8, Q9. Q10 확인
+ * 
+ * Q11 아래처럼 서기 년월일 필드로 갖는 클래스를 만드세요 다음과 같이 생성자와 메서를 정의해야 합니다.
+ * 	class YMD{
+		int y;
+		int m;
+		int d;
+		}
+ * 생성자(주어진 날짜로 설정)
+ * YMD(int y, int m, int d)
+ * n일 뒤의 날짜를 반환
+ * YMD after(int n)
+ * n일 앞의 날짜를 반환
+ * YMD before(int n)
  */
 package chap02;
 
