@@ -25,5 +25,21 @@
 package chap03;
 
 public class Q1 {
+	static int seqSearchSenFor(int[] x,int n,int key) {
+		x[n]=key;
+		for(int i=0;i<=n;i++) {
+			if(x[i]==key&&i!=n)
+				return i;
+		}
+		return -1;
+	}
+/*	static int seqSearchSen(int[] a, int n, int key) {
+		int i;
+		a[n] = key; // 보초를 추가
+
+		for (i = 0; a[i] != key; i++);
+		
+		return i == n ? -1 : i;
+	}*/
 
 }
