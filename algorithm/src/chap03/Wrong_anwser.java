@@ -3,7 +3,7 @@
  * 
  * Q1 Test3_3의 seqSearchSen메서드를 while문이 아니라 for문을 사용하여 수정한 프로그램을 작성하세요.
  * 
- * Q2 확인
+ * Q2, Q3 확인
  */
 package chap03;
 
