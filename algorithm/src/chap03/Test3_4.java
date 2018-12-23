@@ -31,7 +31,7 @@ import java.util.Scanner;
 
 public class Test3_4 {
 
-	static int binSerach(int[] a, int n, int key) {
+	static int binSearch(int[] a, int n, int key) {
 		int pl=0;
 		int pr=n-1;
 		
@@ -68,7 +68,7 @@ public class Test3_4 {
 		System.out.println("검색할 값 : ");
 		int ky=stdIn.nextInt();
 		
-		int idx=binSerach(x, num, ky);
+		int idx=binSearch(x, num, ky);
 		
 		if(idx==-1)
 			System.out.println("그 값의 요소가 없습니다.");
