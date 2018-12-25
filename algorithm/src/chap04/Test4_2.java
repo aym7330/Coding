@@ -1,3 +1,8 @@
+/**
+ * 날짜 : 2018-12-25
+ * 
+ * 페이지 : p142
+ */
 package chap04;
 
 import java.util.Scanner;
