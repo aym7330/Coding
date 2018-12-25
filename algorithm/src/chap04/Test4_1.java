@@ -1,7 +1,8 @@
 /**
- * 날짜 : 2018-12-24
+ * 날짜 : 2018-12-25
  * 
- * 페이지 : p136
+ * 페이지 : p136, 142
+ * Test4_2도 포함
  * 
  * 스택 : 데이터를 일시적으로 저장하기 위한 자료구조, 데이터의 입력과 출력 순서는 후입선출(LIFO)
  * 푸시(push) : 데이터를 넣는 작업 
@@ -11,6 +12,8 @@
  */
 
 package chap04;
+
+import java.util.Scanner;
 
 public class Test4_1 {
 	private int max;	//스택 용량
@@ -98,8 +101,9 @@ public class Test4_1 {
 			System.out.println("스택이 비어 있습니다.");
 		else {
 			for(int i=0;i<ptr;i++)
-				System.out.println(stk[i]+" ");
+				System.out.print(stk[i]+" ");
 			System.out.println();
 		}
 	}
+	
 }
