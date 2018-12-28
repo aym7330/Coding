@@ -13,7 +13,7 @@
  */
 package chap01;
 
-public class Wrong_anwser {
+public class Wrong_answer {
 	public static void main(String[] args) {
 		
 	}

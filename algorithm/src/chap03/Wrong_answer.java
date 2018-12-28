@@ -17,6 +17,6 @@
  */
 package chap03;
 
-public class Wrong_anwser {
+public class Wrong_answer {
 
 }
