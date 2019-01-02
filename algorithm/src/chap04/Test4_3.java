@@ -103,4 +103,29 @@ public class Test4_3 {
 			System.out.println();
 		}
 	}
+	
+	// Q5
+	int search(int x) {
+		int idx=0;
+		int i=front;
+		int n=0;
+		while(n<max){
+			++idx;
+			if(que[i]==x)
+				return idx;
+			if(i>max)i=0;
+			else
+				i++;
+			n++;
+		}
+	
+		return 0;
+	}
+/*	// 큐에서 x를 검색하여 머리부터 몇 번 째인가(찾지 못하면 0)를 반환
+	public int search(int x) {
+		for (int i = 0; i < num; i++)
+			if (que[(i + front) % max] == x) // 검색성공
+				return i + 1;
+		return 0; // 검색실패
+	}*/
 }
